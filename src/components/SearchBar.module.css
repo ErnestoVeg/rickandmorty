@@ -1,0 +1,11 @@
+.divSearch{
+    
+    margin: auto;
+    width: 100%;
+}
+
+.divSearch button{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5%;
+}

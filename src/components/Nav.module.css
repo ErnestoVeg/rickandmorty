@@ -1,0 +1,27 @@
+.divNav{
+    background-color:rgba(0,0,0,0.5);
+    height: 5em;;
+    width: 100%;
+    padding:0 5em;
+    display: grid;
+    grid-template-columns: 15% 50% 35%;
+
+}
+
+.divNav img{
+    height: 2em;
+}
+
+.navItem{
+    padding:;
+    margin: auto;
+    width:100%;
+    display: flex;
+}
+
+.divNav a{
+    color:rgb(135, 248, 242);
+    text-decoration: none;
+    margin:auto;
+    height:100%;
+}
