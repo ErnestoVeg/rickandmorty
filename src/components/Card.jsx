@@ -2,9 +2,9 @@ import {Link} from 'react-router-dom';
 import styles from './Card.module.css';
 import {connect} from "react-redux";
 import {addFavorite, removeFavorite} from "../redux/actions";
-import {useState, useState} from "react";
+import {useState, useEffect} from "react";
 
-function Card(id, name, species, gender, image, onClose, addFavorite, removeFavorite, myFavorites) {
+function Card({id, name, species, gender, image, onClose, addFavorite, removeFavorite, myFavorites}) {
    const [isFav,setIsFav] = useState(false);
 
    const handleFavorite = () => {
